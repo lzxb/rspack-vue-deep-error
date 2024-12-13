@@ -12,9 +12,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "css-loader": "^7.1.2",
-    "style-loader": "^4.0.0",
     "@rspack/cli": "1.1.6",
-    "@rspack/core": "1.1.6"
+    "@rspack/core": "1.1.6",
+    "css-loader": "^7.1.2",
+    "lightningcss": "^1.28.2",
+    "style-loader": "^4.0.0"
   }
 }
