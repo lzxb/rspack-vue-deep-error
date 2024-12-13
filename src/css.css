@@ -1,3 +1,6 @@
+.faq-desc {
+  background: red;
+}
 .faq-desc :deep(.ui-collapse)-item.expanded {
   border-bottom-width: 0;
 }
