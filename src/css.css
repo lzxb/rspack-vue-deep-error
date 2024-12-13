@@ -1,0 +1,32 @@
+.faq-desc :deep(.ui-collapse)-item.expanded {
+  border-bottom-width: 0;
+}
+
+.faq-desc :deep(.ui-collapse)-item-title {
+  flex: 1;
+  transition: all linear 0.4s;
+}
+
+.faq-desc :deep(.ui-collapse)-item-header {
+  border: none;
+  padding: 20px 0;
+  font-size: 16px;
+  font-weight: 500;
+  height: auto;
+  align-items: flex-start;
+}
+
+.faq-desc :deep(.ui-collapse)-item-header:hover .fmui-collapse-item-title {
+  transform: translate(8px);
+}
+
+.faq-desc :deep(.ui-collapse)-item-content {
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.faq-desc :deep(.ui-collapse)-item-content>div {
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
